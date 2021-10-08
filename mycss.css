@@ -1,8 +1,9 @@
-body {
-    /*this is a comment>*/
-    background-color: hsl(255, 77, 77);
+@media (max-width: 2000px){
+    body {
+        /*this is a comment>*/
+        background-color: hsl(255, 77, 77);
+    }
 }
-  
 h1 {
     display: flex;
     color: navy;
@@ -29,6 +30,7 @@ p {
     max-width: 80%;
     min-width: 20%;
     position: sticky;
+    font-family: "Roboto", sans-serif;
 }
 
 h2 {
