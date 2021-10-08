@@ -1,19 +1,73 @@
-body {
-    /*this is a comment>*/
-    background-color: orange;
+@media (max-width: 2000px){
+    body {
+        /*this is a comment>*/
+        background-color: hsl(255, 77, 77);
+    }
 }
-  
 h1 {
+    display: flex;
     color: navy;
     margin-left: 20px;
-    margin: 12px 12px 12px 12px;
-    padding: 12px 12px 12px 12px;
+    margin: 12px 10% 12px 12px;
+    padding: 12px 20%x 12px 12px;
+    height: 100px;
+    width: auto;
 }
  
 ul {
-    border: 2px solid green;
+    border: 2px solid #FFF;
     border-radius: 10%;
     border-width: 1cm;
     padding: .5em;
+    display: inline;
     margin: auto;
+    
+}
+
+p {
+    color: rgb(100,20,40);
+    text-decoration: underline rgb(53, 52, 59);
+    max-width: 80%;
+    min-width: 20%;
+    position: sticky;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+p:hover {
+    color: #FF00FF;
+}
+
+h3:active {
+    color: darkslateblue;
+}
+
+.flex-container {
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flex-container>div{
+    padding: 20%;
+    background-color: grey;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    max-width: 100px;
+    background-color: indianred;
 }
