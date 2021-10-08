@@ -56,3 +56,16 @@ h3:active {
     background-color: grey;
     margin: 10px;
 }
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    max-width: 100px;
+    background-color: indianred;
+}
