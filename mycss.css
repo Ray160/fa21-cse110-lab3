@@ -4,7 +4,7 @@ body {
 }
   
 h1 {
-    
+    display: flex;
     color: navy;
     margin-left: 20px;
     margin: 12px 10% 12px 12px;
@@ -35,4 +35,24 @@ h2 {
     text-align: center;
     display: block;
     position: relative;
+}
+
+p:hover {
+    color: #FF00FF;
+}
+
+h3:active {
+    color: darkslateblue;
+}
+
+.flex-container {
+    display: flex;
+    margin: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flex-container>div{
+    padding: 20%;
+    background-color: grey;
+    margin: 10px;
 }
