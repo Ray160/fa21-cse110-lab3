@@ -9,6 +9,8 @@ h1 {
     margin-left: 20px;
     margin: 12px 10% 12px 12px;
     padding: 12px 20%x 12px 12px;
+    height: 100px;
+    width: auto;
 }
  
 ul {
@@ -18,14 +20,19 @@ ul {
     padding: .5em;
     display: inline;
     margin: auto;
+    
 }
 
 p {
     color: rgb(100,20,40);
     text-decoration: underline rgb(53, 52, 59);
+    max-width: 80%;
+    min-width: 20%;
+    position: sticky;
 }
 
 h2 {
     text-align: center;
     display: block;
+    position: relative;
 }
