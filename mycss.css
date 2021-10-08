@@ -1,19 +1,30 @@
 body {
     /*this is a comment>*/
-    background-color: orange;
+    background-color: hsl(255, 77, 77);
 }
   
 h1 {
+    
     color: navy;
     margin-left: 20px;
-    margin: 12px 12px 12px 12px;
-    padding: 12px 12px 12px 12px;
+    margin: 12px 10% 12px 12px;
+    padding: 12px 20%x 12px 12px;
 }
  
 ul {
-    border: 2px solid green;
+    border: 2px solid #FFF;
     border-radius: 10%;
     border-width: 1cm;
     padding: .5em;
     margin: auto;
+}
+
+p {
+    color: rgb(100,20,40);
+    text-decoration: underline rgb(53, 52, 59);
+}
+
+h2 {
+    text-align: center;
+    display: block;
 }
