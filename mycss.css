@@ -16,6 +16,7 @@ ul {
     border-radius: 10%;
     border-width: 1cm;
     padding: .5em;
+    display: inline;
     margin: auto;
 }
 
