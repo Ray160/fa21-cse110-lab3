@@ -32,8 +32,33 @@ p {
     position: sticky;
     font-family: "Roboto", sans-serif;
 }
+h3 p {
+    color: rgb(200,20,40);
+    text-decoration: underline rgb(53, 52, 59);
+    max-width: 80%;
+    min-width: 20%;
+    position: sticky;
+    font-family: "Roboto", sans-serif;
+}
 
-h2 {
+p~b {
+    color: rgb(200,20,40);
+    text-decoration: underline rgb(53, 52, 59);
+    max-width: 80%;
+    min-width: 20%;
+    position: sticky;
+    font-family: "Roboto", sans-serif;
+}
+ol+li {
+    color: rgb(200,20,40);
+    text-decoration: underline rgb(53, 52, 59);
+    max-width: 80%;
+    min-width: 20%;
+    position: sticky;
+    font-family: "Roboto", sans-serif;
+}
+
+h2, ol {
     text-align: center;
     display: block;
     position: relative;
@@ -43,7 +68,7 @@ p:hover {
     color: #FF00FF;
 }
 
-h3:active {
+*h3:active {
     color: darkslateblue;
 }
 
@@ -59,7 +84,7 @@ h3:active {
     margin: 10px;
 }
 
-.grid-container {
+div.grid-container {
     display: grid;
     grid-row-gap: 10px;
     grid-template-columns: auto auto;
@@ -70,4 +95,12 @@ h3:active {
     padding: 20px;
     max-width: 100px;
     background-color: indianred;
+}
+
+#pics {
+    color: red;
+}
+
+a[title="hastitle"] {
+    color: green;
 }
