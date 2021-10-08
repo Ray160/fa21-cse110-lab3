@@ -1,14 +1,19 @@
 body {
     /*this is a comment>*/
     background-color: orange;
-  }
+}
   
-  h1 {
+h1 {
     color: navy;
     margin-left: 20px;
-  }
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
+}
  
 ul {
-  border: 2px solid green;
-  padding: .5em;
+    border: 2px solid green;
+    border-radius: 10%;
+    border-width: 1cm;
+    padding: .5em;
+    margin: auto;
 }
